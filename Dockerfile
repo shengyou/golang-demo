@@ -14,7 +14,7 @@ RUN apk add --no-cache libc6-compat
 
 WORKDIR /
 
-COPY --from=build-env /golang-demo /
+COPY --from=builder /golang-demo /
 
 RUN chmod +x /golang-demo
 
