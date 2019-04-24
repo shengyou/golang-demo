@@ -32,7 +32,7 @@ func TestCalculator(t *testing.T) {
 	})
 
 	t.Run("Test division", func(t *testing.T) {
-		want := float64(2 / 3)
+		want := float64(2) / 3
 		got := Divide(2, 3)
 
 		if got != want {

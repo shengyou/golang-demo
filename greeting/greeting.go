@@ -1,4 +1,4 @@
-package main
+package greeting
 
 const englishPrefix = "Greeting, "
 const mandarinPrefix = "您好，"
@@ -8,7 +8,7 @@ func hello() string {
 	return "Hello!"
 }
 
-func greeting(name string, locale string) string {
+func Greeting(name string, locale string) string {
 
 	if name == "" {
 		name = "everyone"

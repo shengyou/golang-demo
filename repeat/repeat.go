@@ -1,6 +1,6 @@
-package main
+package repeat
 
-func repeat(count int, char string) string {
+func Repeat(count int, char string) string {
 
 	if char == "" {
 		char = "z"
